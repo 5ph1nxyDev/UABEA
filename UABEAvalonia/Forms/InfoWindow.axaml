@@ -24,7 +24,7 @@
         <MenuItem Header="Close" HotKey="Ctrl+W" InputGesture="Ctrl+W" Name="menuClose" />
       </MenuItem>
       <MenuItem Header="View">
-        <MenuItem Header="Search by name" HotKey="Ctrl+F" InputGesture="Ctrl+F" Name="menuSearchByName" />
+        <MenuItem Header="Search by Name" HotKey="Ctrl+F" InputGesture="Ctrl+F" Name="menuSearchByName" />
         <MenuItem Header="Continue search" InputGesture="F3" Name="menuContinueSearch" />
         <MenuItem Header="Go to asset" HotKey="Ctrl+G" InputGesture="Ctrl+G" Name="menuGoToAsset" />
         <MenuItem Header="Filter" HotKey="Ctrl+E" InputGesture="Ctrl+E" Name="menuFilter" />
