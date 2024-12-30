@@ -12,8 +12,8 @@
   <Grid>
     <Menu Height="22" VerticalAlignment="Top" Name="menuMain">
       <MenuItem Header="File">
-        <MenuItem Header="Open" HotKey="Ctrl+O" InputGesture="Ctrl+O" Name="menuOpen" />
-        <MenuItem Header="Load Package File" HotKey="Ctrl+P" InputGesture="Ctrl+P" Name="menuLoadPackageFile" />
+        <MenuItem Header="Open File" HotKey="Ctrl+O" InputGesture="Ctrl+O" Name="menuOpen" />
+        <MenuItem Header="Load Package" HotKey="Ctrl+P" InputGesture="Ctrl+P" Name="menuLoadPackageFile" />
         <MenuItem Header="Close" HotKey="Ctrl+W" InputGesture="Ctrl+W" Name="menuClose" />
         <MenuItem Header="Save" HotKey="Ctrl+S" InputGesture="Ctrl+S" Name="menuSave" />
         <MenuItem Header="Save as..." HotKey="Ctrl+Shift+S" InputGesture="Ctrl+Shift+S" Name="menuSaveAs" />
@@ -30,7 +30,7 @@
       </MenuItem>
     </Menu>
 
-    <TextBlock Margin="10,32,10,0" VerticalAlignment="Top" Text="No file opened." TextAlignment="Center" FontWeight="Bold" FontSize="14" Name="lblFileName" />
+    <TextBlock Margin="10,32,10,0" VerticalAlignment="Top" Text="No file opened!" TextAlignment="Center" FontWeight="Bold" FontSize="14" Name="lblFileName" />
     <ComboBox Margin="10,56,10,0" VerticalAlignment="Top" Height="30" IsEnabled="False" Name="comboBox">
       <ComboBox.ItemTemplate>
         <DataTemplate>
